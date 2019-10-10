@@ -36,7 +36,7 @@
             this.pnlShape.BackColor = System.Drawing.Color.PaleGreen;
             this.pnlShape.Location = new System.Drawing.Point(200, 78);
             this.pnlShape.Name = "pnlShape";
-            this.pnlShape.Size = new System.Drawing.Size(47, 43);
+            this.pnlShape.Size = new System.Drawing.Size(564, 225);
             this.pnlShape.TabIndex = 1;
             this.pnlShape.Visible = false;
             // 
@@ -47,7 +47,7 @@
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Controls.Add(this.pnlShape);
             this.Name = "ucVideoGroup";
-            this.Size = new System.Drawing.Size(508, 223);
+            this.Size = new System.Drawing.Size(564, 225);
             this.ResumeLayout(false);
 
         }

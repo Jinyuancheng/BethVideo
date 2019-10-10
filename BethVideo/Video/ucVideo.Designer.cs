@@ -44,26 +44,23 @@
             this.ucVideoMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ucVideoMain.Location = new System.Drawing.Point(0, 0);
             this.ucVideoMain.Name = "ucVideoMain";
-            this.ucVideoMain.Size = new System.Drawing.Size(509, 225);
+            this.ucVideoMain.Size = new System.Drawing.Size(564, 225);
             this.ucVideoMain.TabIndex = 0;
             // 
             // ucVideo
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.Controls.Add(this.ucVideoMain);
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Name = "ucVideo";
-            this.Size = new System.Drawing.Size(509, 225);
+            this.Size = new System.Drawing.Size(564, 225);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private ucVideoGroup ucVideoMain;
         private System.Windows.Forms.Timer tmrDealMsg;
-
+        private ucVideoGroup ucVideoMain;
     }
 }
