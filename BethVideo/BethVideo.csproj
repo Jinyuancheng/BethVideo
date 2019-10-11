@@ -101,6 +101,7 @@
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Video\ucSingleVideo.resx">
       <DependentUpon>ucSingleVideo.cs</DependentUpon>
@@ -121,6 +122,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\VideoClose_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\双视2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\双视大屏1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

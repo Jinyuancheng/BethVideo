@@ -33,7 +33,8 @@
             // 
             // panelFull
             // 
-            this.panelFull.BackgroundImage = global::BethVideo.Properties.Resources.VideoBack;
+            this.panelFull.BackgroundImage = global::BethVideo.Properties.Resources.双视大屏1;
+            this.panelFull.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panelFull.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelFull.Location = new System.Drawing.Point(0, 0);
             this.panelFull.Name = "panelFull";
